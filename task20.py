@@ -1,4 +1,3 @@
-
 import re 
 def isCyrillic(text): 	
     return bool(re.search('[а-я А-Я]', text)) 
